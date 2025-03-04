@@ -6,6 +6,8 @@
 
 body {
   color: black;
+  background-color: #f6f8fa;
+  font-family: sans-serif;
 }
 
 /* ******* HEADER ******* */
@@ -17,10 +19,38 @@ header {
 
 header h1 {
   display: inline-block;
-  font-family: sans-serif;
   vertical-align: middle;
 }
 
 header img {
   vertical-align: middle;
+}
+
+/* ******* MAIN ******* */
+main .container {
+  background-color: white;
+  border-radius: 10px 0 10px 10px;
+  width: 800px;
+  height: 900px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  padding: 15px 50px 50px 50px;
+}
+
+.btn-section button {
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.btn-section .btn-primary {
+  background-color: #3eb0f7;
+  color: white;
+  border: 1px solid #3eb0f7;
+}
+
+.btn-section .btn-secondary {
+  background-color: white;
+  color: grey;
+  border: 1px solid grey;
 }
