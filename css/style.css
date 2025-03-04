@@ -12,17 +12,15 @@ body {
 
 /* ******* HEADER ******* */
 header {
-  height: 80px;
   background-color: white;
-  /* vertical-align: middle; */
+  padding: 10px 0px 10px 20px;
+}
+header span {
+  font-size: 32px;
+  font-weight: bold;
 }
 
-header h1 {
-  display: inline-block;
-  /* vertical-align: middle; */
-}
-
-header img {
+.vertical-align-middle {
   vertical-align: middle;
 }
 
@@ -89,62 +87,40 @@ li.not-done::before {
 
 /* LABELS for li items */
 
-li.editorial-label::after {
-  content: "Editoral";
-  background-color: #44abe5;
+li::after {
   color: white;
   margin: 0px 10px;
   padding: 5px 10px;
   border-radius: 20px;
   font-size: 12px;
+}
+
+li.editorial-label::after {
+  content: "Editoral";
+  background-color: #44abe5;
 }
 
 li.q1-goals-label::after {
   content: "Q1 Goals";
   background-color: #9d74eb;
-  color: white;
-  margin: 0px 10px;
-  padding: 5px 10px;
-  border-radius: 20px;
-  font-size: 12px;
 }
 
 li.recruiting-label::after {
   content: "Recruiting";
   background-color: #65c3a8;
-  color: white;
-  margin: 0px 10px;
-  padding: 5px 10px;
-  border-radius: 20px;
-  font-size: 12px;
 }
 
 li.recruiting-label::after {
   content: "Mobile";
   background-color: #eda22f;
-  color: white;
-  margin: 0px 10px;
-  padding: 5px 10px;
-  border-radius: 20px;
-  font-size: 12px;
 }
 
 li.website-label::after {
   content: "Website";
   background-color: #dc659d;
-  color: white;
-  margin: 0px 10px;
-  padding: 5px 10px;
-  border-radius: 20px;
-  font-size: 12px;
 }
 
 li.sales-label::after {
   content: "Sales";
   background-color: #acc627;
-  color: white;
-  margin: 0px 10px;
-  padding: 5px 10px;
-  border-radius: 20px;
-  font-size: 12px;
 }
