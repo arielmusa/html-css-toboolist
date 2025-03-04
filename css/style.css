@@ -58,3 +58,11 @@ main .container {
 .task-group {
   margin-top: 40px;
 }
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin: 15px 0px;
+}
