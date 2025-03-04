@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: black;
+}
+
+/* ******* HEADER ******* */
+header {
+  height: 80px;
+  background-color: white;
+  vertical-align: middle;
+}
+
+header h1 {
+  display: inline-block;
+  font-family: sans-serif;
+  vertical-align: middle;
+}
+
+header img {
+  vertical-align: middle;
+}
